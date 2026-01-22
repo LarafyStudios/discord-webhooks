@@ -2,16 +2,6 @@
 
 A simple, elegant, and feature-rich Laravel package for sending Discord webhook messages with support for text content, embeds, and rich formatting.
 
-## Features
-
-- 🚀 **Simple API** - Clean, fluent interface for building webhook messages
-- 📦 **Zero Configuration** - Works out of the box with sensible defaults
-- 🎨 **Rich Embeds** - Full support for Discord embed formatting
-- 🔧 **Flexible** - Send text-only, embed-only, or combine both
-- 🎯 **Type Safe** - Full type hints and return types
-- 📝 **Well Documented** - Comprehensive documentation and examples
-- 🔌 **Laravel Integration** - Automatic service provider registration and facade support
-
 ## Requirements
 
 - PHP 8.2 or higher
