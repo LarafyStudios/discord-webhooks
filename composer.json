@@ -1,0 +1,57 @@
+{
+    "name": "larafystudios/discord-webhooks",
+    "description": "A simple, elegant Laravel package for sending Discord webhook messages with support for text content, embeds, and rich formatting.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "discord",
+        "webhook",
+        "notification",
+        "embed",
+        "discord-webhook",
+        "laravel-package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LarafyStudios",
+            "email": ""
+        }
+    ],
+    "homepage": "https://github.com/LarafyStudios/discord-webhooks",
+    "support": {
+        "issues": "https://github.com/LarafyStudios/discord-webhooks/issues",
+        "source": "https://github.com/LarafyStudios/discord-webhooks"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LarafyStudios\\DiscordWebhooks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LarafyStudios\\DiscordWebhooks\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LarafyStudios\\DiscordWebhooks\\DiscordWebhooksServiceProvider"
+            ],
+            "aliases": {
+                "DiscordWebhook": "LarafyStudios\\DiscordWebhooks\\Facades\\DiscordWebhook"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

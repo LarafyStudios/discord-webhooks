@@ -1,0 +1,30 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source files
+*.php text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Exclude files from export
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.github export-ignore
+/LICENSE export-ignore
+/README.md export-ignore
+/TESTING.md export-ignore
+/TESTING_GUIDE.md export-ignore
+/.phpunit.result.cache export-ignore
+/.phpunit.cache export-ignore
+/.pest_cache export-ignore
+/tests export-ignore
+/.editorconfig export-ignore
+/.php-cs-fixer.php export-ignore
+/.php-cs-fixer.dist.php export-ignore
+/phpunit.xml export-ignore
+/phpunit.xml.dist export-ignore
+/pest.php export-ignore
+/.styleci.yml export-ignore
